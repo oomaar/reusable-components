@@ -1,5 +1,7 @@
+import { Routes } from "react-router-dom";
+
 function App() {
-  return <>Hello World</>;
+  return <Routes>Hello World</Routes>;
 }
 
 export default App;
