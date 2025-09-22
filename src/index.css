@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --header-height: 3rem;
+  --navbar-height: 70px;
 
   /*========== Colors ==========*/
   /* Change favorite color */
@@ -94,6 +94,19 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.shadow {
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.15),
+    0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.top-shadow {
+  box-shadow: 0 -2px 6px rgba(255, 255, 255, 0.08);
+}
+
+.soft-shadow {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 /* Font size for large devices */
